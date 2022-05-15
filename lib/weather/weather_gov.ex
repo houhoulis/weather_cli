@@ -1,7 +1,7 @@
 defmodule Weather.WeatherGov do
   require Logger
 
-  @user_agent [{"User-agent", "Elixir Chris"}]
+  @user_agent [{"User-agent", "Elixir Weather CLI"}]
   @gov_url Application.get_env(:weather, :gov_url)
 
   # A partially-accurate filter. There seem to be a lot of station reports that are
